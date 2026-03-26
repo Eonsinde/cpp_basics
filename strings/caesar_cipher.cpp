@@ -11,7 +11,7 @@ enum class CipherAction {
 std::string encryptDecryptCipher(std::string, CipherAction = CipherAction::ENCRYPT, size_t = 3);
 std::string encryptDecryptCipherOptimized(std::string, CipherAction = CipherAction::ENCRYPT, size_t=3);
 
-int main() {
+int main_ccipher() {
 	std::string userEntry;
 
 	do {
