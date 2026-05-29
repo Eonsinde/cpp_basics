@@ -127,14 +127,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="algorithms\search\binary_search.cpp" />
     <ClCompile Include="algorithms\search\linear_search.cpp" />
     <ClCompile Include="algorithms\sorting\insertion_sort.cpp" />
     <ClCompile Include="algorithms\sorting\selection_sort.cpp" />
+    <ClCompile Include="classes\polymorphism.cpp" />
     <ClCompile Include="data_structures\Arrays\run_arrays.cpp" />
+    <ClCompile Include="data_structures\LinkedLists\run_linked_lists.cpp" />
     <ClCompile Include="data_structures\trees_dfs.cpp" />
+    <ClCompile Include="files\io_with_files.cpp" />
+    <ClCompile Include="files\string_streams.cpp" />
     <ClCompile Include="games\Hangman\HangmanGame.cpp" />
     <ClCompile Include="games\Hangman\run_hangman.cpp" />
     <ClCompile Include="Interfaces\IPrintable.cpp" />
+    <ClCompile Include="multithreading\root.cpp" />
+    <ClCompile Include="pointers\smart_pointers.cpp" />
+    <ClCompile Include="stl\maps.cpp" />
     <ClCompile Include="strings\anagram_checker.cpp" />
     <ClCompile Include="strings\caesar_cipher.cpp" />
     <ClCompile Include="strings\capitalize_sentence.cpp" />
@@ -145,12 +153,21 @@
     <ClCompile Include="strings\longest_word.cpp" />
     <ClCompile Include="strings\replace_characters.cpp" />
     <ClCompile Include="strings\words_counter.cpp" />
-    <ClCompile Include="utils.cpp" />
+    <ClCompile Include="utils.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="data_structures\Arrays\Int32Array.h" />
+    <ClInclude Include="data_structures\LinkedLists\DoublyLinkedList.h" />
+    <ClInclude Include="data_structures\LinkedLists\IList.h" />
+    <ClInclude Include="data_structures\Utilities\Node.h" />
     <ClInclude Include="games\Hangman\HangmanGame.h" />
     <ClInclude Include="Interfaces\IPrintable.h" />
+    <ClInclude Include="multithreading\ThreadGuard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\txts\dummy.txt" />
+    <Text Include="assets\txts\dummy2.txt" />
+    <Text Include="assets\txts\lovely-lover.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
